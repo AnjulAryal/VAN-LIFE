@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav > a {
+    text-decoration: none;
+}
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF7ED;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-right: 1.5rem;
+}
+.home{
+    background-image: url("./assets/images/home-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+.home main{
+    height: 400px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.home h2,p{
+     max-width: 500px;
+}
+.home h2{
+    font-size: 36px;
+    font-weight: 800;
+}
+.home button {
+    width: 100%;
+    background-color: #FF8C38;
+    color: white;
+    border: none;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 5px;
+    max-width: 500px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #252525;
+    color:#AAAAAA
+}
+.about-img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.about main{
+    padding: 1rem 0.8rem;
+}
+.about main p{
+    color: #161616;
+}
+.lastbox{
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #FFCC8D;
+}
+.lastbox button{
+    background-color: #161616;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
