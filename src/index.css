@@ -92,3 +92,46 @@ footer{
     border-radius: 8px;
     cursor: pointer;
 }
+.van-container{
+    max-width: 300px;
+    padding: 0.5rem;
+}
+.van-container img{
+    width: 100%;
+    object-fit: cover;
+}
+.van-container .content{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-weight: bold;
+}
+button{
+    padding:  0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    color:#FFEAD0;
+}
+.simple{
+    background-color: #E17654;
+}
+.luxury{
+    background-color: black;
+}
+.rugged{
+    background-color: #115E59;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    justify-content: start;
+    max-width: 600px;
+}
+.vans{
+    padding: 1rem 5rem;
+    
+}
+

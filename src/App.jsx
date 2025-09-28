@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
+import Vans from "./pages/Vans"
 //HEADER COMPONENT
 function Header(){
     return(
@@ -9,7 +10,7 @@ function Header(){
         <nav>
             <ul>
             <li><Link to ="/about">About</Link></li>
-            <li><Link>Vans</Link></li>
+            <li><Link to ="/vans">Vans</Link></li>
             </ul>
         </nav>
         </header>
@@ -30,6 +31,7 @@ export default function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/vans" element={<Vans />} />
         </Routes>
         <Footer />
         </BrowserRouter>
