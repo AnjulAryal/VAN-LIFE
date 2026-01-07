@@ -6,7 +6,7 @@ import Vans from "./pages/Vans"
 function Header(){
     return(
         <header>
-        <Link to="/"><h1>#VANLIFE</h1></Link>
+        <Link to="/" className="logo"><h1>VANLIFE</h1></Link>
         <nav>
             <ul>
             <li><Link to ="/about">About</Link></li>
